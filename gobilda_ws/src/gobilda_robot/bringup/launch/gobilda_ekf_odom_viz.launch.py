@@ -240,6 +240,39 @@ def generate_launch_description():
                    '--controller-manager',
                    '/controller_manager',],
     )
+    # ---- Ekf node ---
+    ekf_odom = Node(
+        package='project2',
+        executable='ekf_node',
+        name='ekf_odom',
+        output='both',
+    )
+    #old project ones nodes below
+    #     # ---- Roomba controller node ---
+    # roomba = Node(
+    #     package='lab4',
+    #     executable='roomba',
+    #     name='roomba',
+    #     output='screen',
+    # )
+
+    # # ---- Clearance calculator node ---
+    # clearance = Node(
+    #     package='lab4',
+    #     executable='clearance_calculator',
+    #     name='clearance_calculator',
+    #     output='screen',
+    # )
+    
+    #     # ------ LabCostmap ------
+    # cost = Node(
+    #     package='lab4',
+    #     executable='LocalCostmap',
+    #     name='LocalCostmap',
+    #     output='screen',
+    # )
+
+
 
     nodes = [
         control_node,
@@ -249,11 +282,15 @@ def generate_launch_description():
         laser_to_pointcloud,
         rtabmap_odom,
         robot_localization,
+        ekf_odom,
+        # roomba,
+        # clearance,
+        # cost
     ]
 
     launch_files = [
         rplidar,
-        oakd_camera,
+        # oakd_camera,
         kiss_icp,
     ]
     
