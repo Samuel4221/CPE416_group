@@ -1,0 +1,12 @@
+[0mCMake Deprecation Warning at /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):
+  The OLD behavior for policy CMP0135 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+Call Stack (most recent call first):
+  /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)
+
+[0m

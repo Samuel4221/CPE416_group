@@ -1,0 +1,9 @@
+source;share/gobilda_utilities/hook/pythonpath.ps1
+source;share/gobilda_utilities/hook/pythonpath.dsv
+source;share/gobilda_utilities/hook/pythonpath.sh
+source;share/gobilda_utilities/hook/ament_prefix_path.ps1
+source;share/gobilda_utilities/hook/ament_prefix_path.dsv
+source;share/gobilda_utilities/hook/ament_prefix_path.sh
+source;../../build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.ps1
+source;../../build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.dsv
+source;../../build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.sh

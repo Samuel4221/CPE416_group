@@ -1,0 +1,42 @@
+[0.050s] Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --build /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot -- -j6 -l6
+[0.647s] [100%] Built target gobilda_robot
+[1.239s] Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --build /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot -- -j6 -l6
+[1.253s] Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --install /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot
+[1.262s] -- Install configuration: ""
+[1.267s] -- Execute custom install script
+[1.269s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot//gobilda_robot.xml
+[1.270s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/include/gobilda_robot/gobilda_robot/gobilda_system.hpp
+[1.270s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/include/gobilda_robot/gobilda_robot/motor.hpp
+[1.270s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/ros2_control/gobilda.ros2_control.xacro
+[1.271s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda.urdf.xacro
+[1.272s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda_description.urdf.xacro
+[1.273s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda_gazebo.urdf.xacro
+[1.273s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/launch/gobilda_ekf_odom_viz.launch.py
+[1.273s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/ekf.yaml
+[1.273s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/gobilda_controllers.yaml
+[1.273s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/mapper_params_online_async.yaml
+[1.274s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/oakd.yaml
+[1.274s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/library_path.sh
+[1.274s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/library_path.dsv
+[1.274s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/package_run_dependencies/gobilda_robot
+[1.274s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/parent_prefix_path/gobilda_robot
+[1.274s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/ament_prefix_path.sh
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/ament_prefix_path.dsv
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/path.sh
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/path.dsv
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.bash
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.sh
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.zsh
+[1.275s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.dsv
+[1.276s] -- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.dsv
+[1.283s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/packages/gobilda_robot
+[1.284s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/gobilda_robot
+[1.284s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/ament_cmake_export_targets-extras.cmake
+[1.284s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.285s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/gobilda_robotConfig.cmake
+[1.285s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/gobilda_robotConfig-version.cmake
+[1.285s] -- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.xml
+[1.286s] -- Up-to-date: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/libgobilda_robot.so
+[1.287s] -- Up-to-date: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport.cmake
+[1.287s] -- Up-to-date: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport-noconfig.cmake
+[1.291s] Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --install /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot

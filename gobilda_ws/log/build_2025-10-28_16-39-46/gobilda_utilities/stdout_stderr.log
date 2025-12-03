@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating gobilda_utilities.egg-info
+writing gobilda_utilities.egg-info/PKG-INFO
+writing dependency_links to gobilda_utilities.egg-info/dependency_links.txt
+writing entry points to gobilda_utilities.egg-info/entry_points.txt
+writing requirements to gobilda_utilities.egg-info/requires.txt
+writing top-level names to gobilda_utilities.egg-info/top_level.txt
+writing manifest file 'gobilda_utilities.egg-info/SOURCES.txt'
+reading manifest file 'gobilda_utilities.egg-info/SOURCES.txt'
+writing manifest file 'gobilda_utilities.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages/gobilda-utilities.egg-link (link to .)
+Installing draw_square_fb script to /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/gobilda_utilities
+Installing teleop_gobilda script to /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/gobilda_utilities
+
+Installed /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities
+running symlink_data
+creating /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/ament_index
+creating /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/ament_index/resource_index
+creating /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/ament_index/resource_index/packages
+symbolically linking /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/resource/gobilda_utilities -> /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/ament_index/resource_index/packages
+symbolically linking /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/package.xml -> /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities

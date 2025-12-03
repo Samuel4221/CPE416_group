@@ -1,0 +1,38 @@
+[100%] Built target gobilda_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot//gobilda_robot.xml
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/include/gobilda_robot/gobilda_robot/gobilda_system.hpp
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/include/gobilda_robot/gobilda_robot/motor.hpp
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/ros2_control/gobilda.ros2_control.xacro
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda.urdf.xacro
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda_description.urdf.xacro
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda_gazebo.urdf.xacro
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/launch/gobilda_ekf_odom_viz.launch.py
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/ekf.yaml
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/gobilda_controllers.yaml
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/mapper_params_online_async.yaml
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/oakd.yaml
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/library_path.sh
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/library_path.dsv
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/package_run_dependencies/gobilda_robot
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/parent_prefix_path/gobilda_robot
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/path.sh
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/path.dsv
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.bash
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.sh
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.zsh
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.dsv
+-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.dsv
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/packages/gobilda_robot
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/gobilda_robot
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/gobilda_robotConfig.cmake
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/gobilda_robotConfig-version.cmake
+-- Up-to-date symlink: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.xml
+-- Up-to-date: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/libgobilda_robot.so
+-- Up-to-date: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport.cmake
+-- Up-to-date: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport-noconfig.cmake

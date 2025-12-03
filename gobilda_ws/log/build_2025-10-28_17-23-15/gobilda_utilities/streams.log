@@ -1,0 +1,18 @@
+[2.044s] Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/build --no-deps symlink_data
+[2.613s] running develop
+[2.990s] running egg_info
+[2.991s] writing gobilda_utilities.egg-info/PKG-INFO
+[2.991s] writing dependency_links to gobilda_utilities.egg-info/dependency_links.txt
+[2.991s] writing entry points to gobilda_utilities.egg-info/entry_points.txt
+[2.992s] writing requirements to gobilda_utilities.egg-info/requires.txt
+[2.992s] writing top-level names to gobilda_utilities.egg-info/top_level.txt
+[2.996s] reading manifest file 'gobilda_utilities.egg-info/SOURCES.txt'
+[2.997s] writing manifest file 'gobilda_utilities.egg-info/SOURCES.txt'
+[3.000s] running build_ext
+[3.001s] Creating /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages/gobilda-utilities.egg-link (link to .)
+[3.002s] Installing draw_square_fb script to /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/gobilda_utilities
+[3.003s] Installing teleop_gobilda script to /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/gobilda_utilities
+[3.003s] 
+[3.004s] Installed /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities
+[3.004s] running symlink_data
+[3.089s] Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities' returned '0': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/build --no-deps symlink_data

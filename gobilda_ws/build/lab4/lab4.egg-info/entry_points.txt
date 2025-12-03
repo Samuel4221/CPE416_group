@@ -1,0 +1,4 @@
+[console_scripts]
+clearance_calculator = lab4.clearance_calculator:main
+roomba = lab4.roomba:main
+

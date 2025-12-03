@@ -1,0 +1,2 @@
+Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/calpoly/gobilda/gobilda_ws/install/kiss_icp
+Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/calpoly/gobilda/gobilda_ws/install/kiss_icp

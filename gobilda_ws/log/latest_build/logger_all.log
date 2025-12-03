@@ -1,0 +1,378 @@
+[0.267s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.268s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff918a6da0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff918a6830>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff918a6830>>, mixin_verb=('build',))
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.787s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.788s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/calpoly/gobilda/gobilda_ws'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_robot) by extension 'ros'
+[0.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gobilda_robot' with type 'ros.ament_cmake' and name 'gobilda_robot'
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'ignore'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'ignore_ament_install'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['colcon_pkg']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'colcon_pkg'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['colcon_meta']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'colcon_meta'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extensions ['ros']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/gobilda_utilities) by extension 'ros'
+[0.828s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gobilda_utilities' with type 'ros.ament_python' and name 'gobilda_utilities'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ignore', 'ignore_ament_install']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ignore_ament_install'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_pkg']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_pkg'
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['colcon_meta']
+[0.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'colcon_meta'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['ros']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'ros'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['cmake', 'python']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'cmake'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extensions ['python_setup_py']
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp) by extension 'python_setup_py'
+[0.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ignore_ament_install'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_pkg']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_pkg'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['colcon_meta']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'colcon_meta'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['ros']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'ros'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['cmake', 'python']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'cmake'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extensions ['python_setup_py']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/config) by extension 'python_setup_py'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/cpp) ignored
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ignore', 'ignore_ament_install']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'ros'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['cmake', 'python']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'cmake'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extensions ['python_setup_py']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/eval) by extension 'python_setup_py'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/python) ignored
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_pkg'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['colcon_meta']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'colcon_meta'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extensions ['ros']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/kiss-icp/ros) by extension 'ros'
+[0.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kiss-icp/ros' with type 'ros.ament_cmake' and name 'kiss_icp'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extensions ['colcon_pkg']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extension 'colcon_pkg'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extensions ['colcon_meta']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extension 'colcon_meta'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extensions ['ros']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab4) by extension 'ros'
+[0.839s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab4' with type 'ros.ament_python' and name 'lab4'
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.922s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/calpoly/gobilda/gobilda_ws/install
+[0.925s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[0.928s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'cmake_target' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'gobilda_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.022s] DEBUG:colcon.colcon_core.verb:Building package 'gobilda_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot', 'merge_install': False, 'path': '/home/calpoly/gobilda/gobilda_ws/src/gobilda_robot', 'symlink_install': True, 'test_result_base': None}
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_target' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_clean_cache' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_clean_first' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'cmake_force_configure' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'ament_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'catkin_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'gobilda_utilities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.023s] DEBUG:colcon.colcon_core.verb:Building package 'gobilda_utilities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities', 'merge_install': False, 'path': '/home/calpoly/gobilda/gobilda_ws/src/gobilda_utilities', 'symlink_install': True, 'test_result_base': None}
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_clean_first' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'cmake_force_configure' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'ament_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'kiss_icp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.024s] DEBUG:colcon.colcon_core.verb:Building package 'kiss_icp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp', 'merge_install': False, 'path': '/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros', 'symlink_install': True, 'test_result_base': None}
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'cmake_target' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'cmake_clean_cache' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'cmake_clean_first' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'cmake_force_configure' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'ament_cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'catkin_cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'lab4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.025s] DEBUG:colcon.colcon_core.verb:Building package 'lab4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/calpoly/gobilda/gobilda_ws/build/lab4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/calpoly/gobilda/gobilda_ws/install/lab4', 'merge_install': False, 'path': '/home/calpoly/gobilda/gobilda_ws/src/lab4', 'symlink_install': True, 'test_result_base': None}
+[1.025s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.028s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/calpoly/gobilda/gobilda_ws/src/gobilda_robot' with build type 'ament_cmake'
+[1.028s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/calpoly/gobilda/gobilda_ws/src/gobilda_robot'
+[1.036s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/calpoly/gobilda/gobilda_ws/src/gobilda_utilities' with build type 'ament_python'
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_utilities', 'ament_prefix_path')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/hook/ament_prefix_path.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/hook/ament_prefix_path.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/hook/ament_prefix_path.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.056s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros' with build type 'ament_cmake'
+[1.057s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros'
+[1.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.064s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/calpoly/gobilda/gobilda_ws/src/lab4' with build type 'ament_python'
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab4', 'ament_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/hook/ament_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/hook/ament_prefix_path.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/hook/ament_prefix_path.sh'
+[1.067s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --build /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot -- -j6 -l6
+[1.663s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/calpoly/gobilda/gobilda_ws/src/gobilda_utilities'
+[1.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --build /home/calpoly/gobilda/gobilda_ws/build/kiss_icp -- -j6 -l6
+[2.269s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/calpoly/gobilda/gobilda_ws/src/lab4'
+[2.271s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.271s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --build /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot -- -j6 -l6
+[2.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --install /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot
+[2.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --build /home/calpoly/gobilda/gobilda_ws/build/kiss_icp -- -j6 -l6
+[2.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --install /home/calpoly/gobilda/gobilda_ws/build/kiss_icp
+[2.337s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gobilda_robot)
+[2.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --install /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot' for CMake module files
+[2.349s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot' for CMake config files
+[2.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_robot', 'cmake_prefix_path')
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/cmake_prefix_path.ps1'
+[2.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/cmake_prefix_path.dsv'
+[2.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/cmake_prefix_path.sh'
+[2.354s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib'
+[2.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_robot', 'ld_library_path_lib')
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/ld_library_path_lib.ps1'
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/ld_library_path_lib.dsv'
+[2.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/ld_library_path_lib.sh'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/bin'
+[2.357s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/pkgconfig/gobilda_robot.pc'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/python3.10/site-packages'
+[2.358s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/bin'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.ps1'
+[2.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.dsv'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.sh'
+[2.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.bash'
+[2.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.zsh'
+[2.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/colcon-core/packages/gobilda_robot)
+[2.370s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gobilda_robot)
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot' for CMake module files
+[2.372s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot' for CMake config files
+[2.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_robot', 'cmake_prefix_path')
+[2.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/cmake_prefix_path.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/cmake_prefix_path.dsv'
+[2.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/cmake_prefix_path.sh'
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib'
+[2.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_robot', 'ld_library_path_lib')
+[2.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/ld_library_path_lib.ps1'
+[2.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/ld_library_path_lib.dsv'
+[2.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/hook/ld_library_path_lib.sh'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/pkgconfig/gobilda_robot.pc'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/python3.10/site-packages'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/bin'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.ps1'
+[2.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.dsv'
+[2.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.sh'
+[2.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.bash'
+[2.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.zsh'
+[2.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/colcon-core/packages/gobilda_robot)
+[2.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.389s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp' for CMake module files
+[2.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/calpoly/gobilda/gobilda_ws/install/lab4:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities:/opt/ros/humble /usr/bin/cmake --install /home/calpoly/gobilda/gobilda_ws/build/kiss_icp
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp' for CMake config files
+[2.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib'
+[2.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/bin'
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/bin'
+[2.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[2.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kiss_icp)
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp' for CMake module files
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp' for CMake config files
+[2.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'cmake_prefix_path')
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/cmake_prefix_path.sh'
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib'
+[2.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('kiss_icp', 'ld_library_path_lib')
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.ps1'
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.dsv'
+[2.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/hook/ld_library_path_lib.sh'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/bin'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib/pkgconfig/kiss_icp.pc'
+[2.414s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib/python3.10/site-packages'
+[2.415s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/bin'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.ps1'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.dsv'
+[2.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.sh'
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.bash'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.zsh'
+[2.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/colcon-core/packages/kiss_icp)
+[3.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/build --no-deps symlink_data
+[3.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/lab4': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/lab4/build --no-deps symlink_data
+[4.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_utilities', 'pythonpath_develop')
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.ps1'
+[4.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities' returned '0': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/build --no-deps symlink_data
+[4.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.dsv'
+[4.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/share/gobilda_utilities/hook/pythonpath_develop.sh'
+[4.279s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities' for CMake module files
+[4.281s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities' for CMake config files
+[4.282s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib'
+[4.283s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/bin'
+[4.283s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/pkgconfig/gobilda_utilities.pc'
+[4.284s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages'
+[4.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('gobilda_utilities', 'pythonpath')
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/hook/pythonpath.ps1'
+[4.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/hook/pythonpath.dsv'
+[4.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/hook/pythonpath.sh'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/bin'
+[4.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gobilda_utilities)
+[4.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/package.ps1'
+[4.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/package.dsv'
+[4.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/package.sh'
+[4.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/package.bash'
+[4.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/gobilda_utilities/package.zsh'
+[4.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/share/colcon-core/packages/gobilda_utilities)
+[4.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab4', 'pythonpath_develop')
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/build/lab4/share/lab4/hook/pythonpath_develop.ps1'
+[4.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/lab4' returned '0': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/lab4/build --no-deps symlink_data
+[4.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/build/lab4/share/lab4/hook/pythonpath_develop.dsv'
+[4.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/build/lab4/share/lab4/hook/pythonpath_develop.sh'
+[4.310s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4' for CMake module files
+[4.312s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4' for CMake config files
+[4.313s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4/lib'
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4/bin'
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/pkgconfig/lab4.pc'
+[4.315s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages'
+[4.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab4', 'pythonpath')
+[4.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/hook/pythonpath.ps1'
+[4.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/hook/pythonpath.dsv'
+[4.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/hook/pythonpath.sh'
+[4.321s] Level 1:colcon.colcon_core.environment:checking '/home/calpoly/gobilda/gobilda_ws/install/lab4/bin'
+[4.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab4)
+[4.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/package.ps1'
+[4.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/package.dsv'
+[4.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/package.sh'
+[4.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/package.bash'
+[4.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/calpoly/gobilda/gobilda_ws/install/lab4/share/lab4/package.zsh'
+[4.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/calpoly/gobilda/gobilda_ws/install/lab4/share/colcon-core/packages/lab4)
+[4.331s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.333s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.354s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.387s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[4.388s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.388s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calpoly/gobilda/gobilda_ws/install/local_setup.ps1'
+[4.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/calpoly/gobilda/gobilda_ws/install/_local_setup_util_ps1.py'
+[4.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calpoly/gobilda/gobilda_ws/install/setup.ps1'
+[4.402s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calpoly/gobilda/gobilda_ws/install/local_setup.sh'
+[4.404s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/calpoly/gobilda/gobilda_ws/install/_local_setup_util_sh.py'
+[4.406s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calpoly/gobilda/gobilda_ws/install/setup.sh'
+[4.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calpoly/gobilda/gobilda_ws/install/local_setup.bash'
+[4.413s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calpoly/gobilda/gobilda_ws/install/setup.bash'
+[4.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/calpoly/gobilda/gobilda_ws/install/local_setup.zsh'
+[4.420s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/calpoly/gobilda/gobilda_ws/install/setup.zsh'

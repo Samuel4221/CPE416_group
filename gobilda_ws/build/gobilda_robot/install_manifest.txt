@@ -1,0 +1,3 @@
+/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/libgobilda_robot.so
+/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport.cmake
+/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport-noconfig.cmake

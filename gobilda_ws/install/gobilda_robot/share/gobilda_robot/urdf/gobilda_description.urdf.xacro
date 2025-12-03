@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="gobilda_robot" params="prefix">
+
+    <!-- Sensor model from Turtlebot packages -->
+    <xacro:include filename="$(find turtlebot4_description)/urdf/sensors/rplidar.urdf.xacro" />
+    <xacro:include filename="$(find turtlebot4_description)/urdf/sensors/oakd.urdf.xacro" />
+    <xacro:arg name="gazebo" default="false" />
+
+    <!-- Robot Parameters -->
+    <xacro:property name="PI" value="3.14159265"/>
+    <xacro:property name="body_length" value="0.5"/>
+    <xacro:property name="body_width" value="0.4"/>
+    <xacro:property name="body_height" value="0.1"/>
+    <xacro:property name="body_density" value="7850.0"/> <!-- Steel -->
+    <xacro:property name="body_mass" value="${body_density * body_length * body_height * body_width}"/>
+    <xacro:property name="body_inertia_x" value="${1.0/12.0 * body_mass * (body_height*body_height + body_width*body_width)}"/>
+    <xacro:property name="body_inertia_y" value="${1.0/12.0 * body_mass * (body_length*body_length + body_height*body_height)}"/>
+    <xacro:property name="body_inertia_z" value="${1.0/12.0 * body_mass * (body_length*body_length + body_width*body_width)}"/>
+
+    <xacro:property name="wheel_radius" value="0.08"/>
+    <xacro:property name="wheel_width" value="0.05"/>
+    <xacro:property name="wheel_separation" value="0.4318"/>
+    <xacro:property name="wheel_offset_x" value="0.17"/>
+    <xacro:property name="wheel_offset_y" value="0.23"/>
+    <xacro:property name="wheel_density" value="900"/> <!-- Ruber -->
+    <xacro:property name="wheel_mass" value="${wheel_density * PI * wheel_radius * wheel_radius * wheel_width}"/>
+    <xacro:property name="wheel_inertia_x" value="${1.0/12.0 * wheel_mass * (3*wheel_radius*wheel_radius + wheel_width*wheel_width)}"/>
+    <xacro:property name="wheel_inertia_y" value="${1.0/12.0 * wheel_mass * (3*wheel_radius*wheel_radius + wheel_width*wheel_width)}"/>
+    <xacro:property name="wheel_inertia_z" value="${1.0/2.0 * wheel_mass * wheel_radius * wheel_radius}"/>
+
+    <xacro:property name="lidar_offset_x"   value="0.1"/>
+    <xacro:property name="lidar_offset_y"   value="-0.1"/>
+    <xacro:property name="lidar_offset_z"   value="0.07"/>
+
+    <xacro:property name="oakd_pro_x_offset"    value="0.2"/>
+    <xacro:property name="oakd_pro_y_offset"    value="0.1"/>
+    <xacro:property name="oakd_pro_z_offset"    value="0.07"/>
+
+
+    <!-- Control Parameters -->    
+    <xacro:property name="max_linear_acceleration" value="10"/>
+
+    <!-- Robot Form and Function (Done by Hand) -->
+    <!-- Body Link -->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="${body_length} ${body_width} ${body_height}"/>
+            </geometry>
+        </visual>
+        
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="${body_length} ${body_width} ${body_height}"/>
+            </geometry>
+        </collision>
+        
+        <inertial>
+            <mass value="10"/>
+            <inertia ixx="${body_inertia_x}" ixy="0.0" ixz="0.0" iyy="${body_inertia_y}" iyz="0" izz="${body_inertia_z}"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </inertial>
+    </link>
+
+    <!-- Left Wheel Joint & Link Rear -->
+    <joint name="left_wheel_joint" type="continuous">
+        <origin xyz="-${wheel_offset_x} ${wheel_offset_y} -0.01" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="10.0"/>
+        <dynamics damping="0.1" friction="0.1"/>
+    </joint>
+
+    <link name="left_wheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </visual>
+        
+        <collision>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+       
+        <inertial>
+            <mass value="2"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="${wheel_inertia_x}" ixy="0" ixz="0"
+                     iyy="${wheel_inertia_y}" iyz="0" izz="${wheel_inertia_z}"/>
+        </inertial>
+    </link>
+
+    <!-- Left Wheel Joint and Link Front-->
+    <joint name="left_wheel_front_joint" type="fixed">
+        <origin xyz="${wheel_offset_x} ${wheel_offset_y} -0.01" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="left_wheel_front_link"/>
+    </joint>
+
+    <link name="left_wheel_front_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </visual>
+        
+        <collision>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <mass value="2"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="${wheel_inertia_x}" ixy="0" ixz="0"
+                     iyy="${wheel_inertia_y}" iyz="0" izz="${wheel_inertia_z}"/>
+        </inertial>
+    </link>
+
+    <!-- Right Wheel Joint & Link Rear -->
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+        <origin xyz="-${wheel_offset_x} -${wheel_offset_y} -0.01" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+        <limit effort="100" velocity="10.0"/>
+        <dynamics damping="0.1" friction="0.1"/>
+    </joint>
+
+    <link name="right_wheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </visual>
+        
+        <collision>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+        
+        <inertial>
+            <mass value="2"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="${wheel_inertia_x}" ixy="0" ixz="0"
+                     iyy="${wheel_inertia_y}" iyz="0" izz="${wheel_inertia_z}"/>
+            </inertial>
+    </link>
+
+    <!-- Right Wheel Joint and Link Front -->
+    <joint name="right_wheel_front_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="right_wheel_front_link"/>
+        <origin xyz="${wheel_offset_x} -${wheel_offset_y} -0.01" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Right Wheel Front -->
+    <link name="right_wheel_front_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </visual>
+        
+        <collision>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+        </collision>
+
+        <inertial>
+            <mass value="2"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <inertia ixx="${wheel_inertia_x}" ixy="0" ixz="0"
+                     iyy="${wheel_inertia_y}" iyz="0" izz="${wheel_inertia_z}"/>
+        </inertial>
+    </link>
+
+     <!-- From Turtlebot4 package sensor definitions -->
+    <xacro:rplidar name="rplidar" parent_link="base_link" gazebo="$(arg gazebo)">
+        <!-- Should correspond to the actual offset on the robot -->
+        <origin xyz="${lidar_offset_x} ${lidar_offset_y} ${lidar_offset_z}"
+                rpy="0 0 0.30"/>
+    </xacro:rplidar>
+
+    <xacro:oakd model="pro" parent_link="base_link">
+        <!-- Should correspond to the actual offset on the robot -->
+        <origin xyz="${oakd_pro_x_offset} ${oakd_pro_y_offset} ${oakd_pro_z_offset}"
+                rpy="0 0 0"/>
+    </xacro:oakd>
+
+  </xacro:macro>
+</robot>

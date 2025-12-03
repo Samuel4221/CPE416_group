@@ -1,0 +1,4 @@
+source;share/gobilda_robot/local_setup.bash
+source;share/gobilda_robot/local_setup.dsv
+source;share/gobilda_robot/local_setup.sh
+source;share/gobilda_robot/local_setup.zsh

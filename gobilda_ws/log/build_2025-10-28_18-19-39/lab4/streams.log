@@ -1,0 +1,18 @@
+[2.147s] Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/lab4': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/lab4/build --no-deps symlink_data
+[2.717s] running develop
+[3.097s] running egg_info
+[3.097s] writing lab4.egg-info/PKG-INFO
+[3.098s] writing dependency_links to lab4.egg-info/dependency_links.txt
+[3.098s] writing entry points to lab4.egg-info/entry_points.txt
+[3.099s] writing requirements to lab4.egg-info/requires.txt
+[3.099s] writing top-level names to lab4.egg-info/top_level.txt
+[3.103s] reading manifest file 'lab4.egg-info/SOURCES.txt'
+[3.105s] writing manifest file 'lab4.egg-info/SOURCES.txt'
+[3.108s] running build_ext
+[3.108s] Creating /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages/lab4.egg-link (link to .)
+[3.110s] Installing clearance_calculator script to /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/lab4
+[3.110s] Installing roomba script to /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/lab4
+[3.111s] 
+[3.111s] Installed /home/calpoly/gobilda/gobilda_ws/build/lab4
+[3.111s] running symlink_data
+[3.199s] Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/lab4' returned '0': PYTHONPATH=/home/calpoly/gobilda/gobilda_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/calpoly/gobilda/gobilda_ws/build/lab4/build --no-deps symlink_data
