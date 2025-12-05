@@ -22,7 +22,7 @@ class DWAPlanner:
 
     # ------------- Public API -------------
 
-    def compute_cmd(self,
+    def compute_next_velo(self,
                     state: RobotState,
                     goal: PoseStamped,
                     scan: LaserScan) -> Twist:
