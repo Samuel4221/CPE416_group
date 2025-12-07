@@ -1,0 +1,6 @@
+[submodule "JETGPIO"]
+	path = JETGPIO
+	url = https://github.com/Rubberazer/JETGPIO.git
+[submodule "gobilda_ws/src/kiss-icp"]
+	path = gobilda_ws/src/kiss-icp
+	url = https://github.com/PRBonn/kiss-icp

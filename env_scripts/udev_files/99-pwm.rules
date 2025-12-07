@@ -1,0 +1,5 @@
+# Allow users in the 'pwm' group to access PWM controllers
+SUBSYSTEM=="pwm", ACTION=="add", RUN+="/bin/chgrp pwm /sys/class/pwm/%k/export /sys/class/pwm/%k/unexport"
+SUBSYSTEM=="pwm", ACTION=="add", RUN+="/bin/chmod g+w /sys/class/pwm/%k/export /sys/class/pwm/%k/unexport"
+SUBSYSTEM=="pwm", ACTION=="add", RUN+="/bin/chgrp -R pwm /sys/class/pwm/%k/pwm*"
+SUBSYSTEM=="pwm", ACTION=="add", RUN+="/bin/chmod -R g+w /sys/class/pwm/%k/pwm*"

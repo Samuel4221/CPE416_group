@@ -1,0 +1,9 @@
+<library path="gobilda_robot">
+  <class name="gobilda_robot/GobildaSystemHardware"
+         type="gobilda_robot::GobildaSystemHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control system for driving a Gobilda robot using Jetson Orin Nano to move the motors.
+    </description>
+  </class>
+</library>

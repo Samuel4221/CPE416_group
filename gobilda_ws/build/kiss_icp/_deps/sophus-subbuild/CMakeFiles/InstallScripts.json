@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/calpoly/gobilda/gobilda_ws/build/kiss_icp/_deps/sophus-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

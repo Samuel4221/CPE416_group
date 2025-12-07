@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing lab4.egg-info/PKG-INFO
+writing dependency_links to lab4.egg-info/dependency_links.txt
+writing entry points to lab4.egg-info/entry_points.txt
+writing requirements to lab4.egg-info/requires.txt
+writing top-level names to lab4.egg-info/top_level.txt
+reading manifest file 'lab4.egg-info/SOURCES.txt'
+writing manifest file 'lab4.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages/lab4.egg-link (link to .)
+Installing clearance_calculator script to /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/lab4
+Installing roomba script to /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/lab4
+
+Installed /home/calpoly/gobilda/gobilda_ws/build/lab4
+running symlink_data

@@ -1,0 +1,12 @@
+/oakd:
+  ros__parameters:
+    camera:
+      i_nn_type: none
+  
+    stereo:
+      i_subpixel: true
+      i_align_depth: true
+
+    imu:
+      i_enable_rotation: true
+      i_message_type: IMU_WITH_MAG_SPLIT

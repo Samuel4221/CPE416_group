@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

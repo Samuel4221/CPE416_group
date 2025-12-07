@@ -1,0 +1,931 @@
+[0.000000] (-) TimerEvent: {}
+[0.001119] (gobilda_robot) JobQueued: {'identifier': 'gobilda_robot', 'dependencies': OrderedDict()}
+[0.001397] (gobilda_utilities) JobQueued: {'identifier': 'gobilda_utilities', 'dependencies': OrderedDict()}
+[0.001623] (kiss_icp) JobQueued: {'identifier': 'kiss_icp', 'dependencies': OrderedDict()}
+[0.001712] (lab4) JobQueued: {'identifier': 'lab4', 'dependencies': OrderedDict()}
+[0.001861] (gobilda_robot) JobStarted: {'identifier': 'gobilda_robot'}
+[0.012316] (gobilda_utilities) JobStarted: {'identifier': 'gobilda_utilities'}
+[0.021630] (kiss_icp) JobStarted: {'identifier': 'kiss_icp'}
+[0.027302] (lab4) JobStarted: {'identifier': 'lab4'}
+[0.038769] (gobilda_robot) JobProgress: {'identifier': 'gobilda_robot', 'progress': 'cmake'}
+[0.040019] (gobilda_robot) JobProgress: {'identifier': 'gobilda_robot', 'progress': 'build'}
+[0.041324] (gobilda_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot', '--', '-j6', '-l6'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'calpoly'), ('SSH_CLIENT', '10.144.153.244 63984 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/calpoly'), ('OLDPWD', '/home/calpoly/gobilda'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'calpoly'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot'), ('SSH_CONNECTION', '10.144.153.244 63984 129.65.75.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099519] (-) TimerEvent: {}
+[0.200174] (-) TimerEvent: {}
+[0.300847] (-) TimerEvent: {}
+[0.401606] (-) TimerEvent: {}
+[0.502375] (-) TimerEvent: {}
+[0.603139] (-) TimerEvent: {}
+[0.634941] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'cmake'}
+[0.636191] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/calpoly/gobilda/gobilda_ws/install/kiss_icp'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'calpoly'), ('SSH_CLIENT', '10.144.153.244 63984 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/calpoly'), ('OLDPWD', '/home/calpoly/gobilda'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'calpoly'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp'), ('SSH_CONNECTION', '10.144.153.244 63984 129.65.75.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.641551] (gobilda_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.642611] (gobilda_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.644681] (gobilda_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.645521] (gobilda_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.645741] (gobilda_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.646197] (gobilda_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.647171] (gobilda_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.647360] (gobilda_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.647506] (gobilda_robot) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.647701] (gobilda_robot) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.647839] (gobilda_robot) StderrLine: {'line': b'  CMake.\n'}
+[0.647965] (gobilda_robot) StderrLine: {'line': b'\n'}
+[0.648084] (gobilda_robot) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.648203] (gobilda_robot) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.648380] (gobilda_robot) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.648511] (gobilda_robot) StderrLine: {'line': b'\n'}
+[0.648625] (gobilda_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[0.650611] (gobilda_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.681339] (gobilda_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.682110] (gobilda_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.683451] (gobilda_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.697823] (gobilda_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.703258] (-) TimerEvent: {}
+[0.769585] (kiss_icp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.784992] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803413] (-) TimerEvent: {}
+[0.904053] (-) TimerEvent: {}
+[0.920078] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.965791] (kiss_icp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.966827] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.968772] (kiss_icp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.973575] (gobilda_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.989771] (kiss_icp) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/3rdparty/find_dependencies.cmake:25 (cmake_policy):\n'}
+[0.990208] (kiss_icp) StderrLine: {'line': b'  The OLD behavior for policy CMP0135 will be removed from a future version\n'}
+[0.990361] (kiss_icp) StderrLine: {'line': b'  of CMake.\n'}
+[0.990490] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.990612] (kiss_icp) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.990732] (kiss_icp) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.990846] (kiss_icp) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.990958] (kiss_icp) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.991070] (kiss_icp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.991183] (kiss_icp) StderrLine: {'line': b'  /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/CMakeLists.txt:48 (include)\n'}
+[0.991296] (kiss_icp) StderrLine: {'line': b'\n'}
+[0.991407] (kiss_icp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.004157] (-) TimerEvent: {}
+[1.104743] (-) TimerEvent: {}
+[1.108544] (gobilda_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.123971] (gobilda_robot) StdoutLine: {'line': b'-- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.182065] (gobilda_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.187094] (gobilda_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.200057] (gobilda_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.204823] (-) TimerEvent: {}
+[1.221343] (gobilda_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.249864] (gobilda_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304981] (-) TimerEvent: {}
+[1.405553] (-) TimerEvent: {}
+[1.506105] (-) TimerEvent: {}
+[1.606652] (-) TimerEvent: {}
+[1.630493] (gobilda_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.633322] (gobilda_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.676153] (gobilda_robot) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.688032] (gobilda_robot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[1.694175] (gobilda_robot) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.706777] (-) TimerEvent: {}
+[1.729951] (gobilda_robot) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.747734] (gobilda_robot) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.770741] (gobilda_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.806897] (-) TimerEvent: {}
+[1.907444] (-) TimerEvent: {}
+[2.008142] (-) TimerEvent: {}
+[2.043449] (gobilda_robot) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.062028] (lab4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/calpoly/gobilda/gobilda_ws/build/lab4/build', '--no-deps', 'symlink_data'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/lab4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'calpoly', 'SSH_CLIENT': '10.144.153.244 63984 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/calpoly', 'OLDPWD': '/home/calpoly/gobilda', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'calpoly', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'PWD': '/home/calpoly/gobilda/gobilda_ws/build/lab4', 'SSH_CONNECTION': '10.144.153.244 63984 129.65.75.132 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/calpoly/gobilda/gobilda_ws/build/lab4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.083647] (gobilda_utilities) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/build', '--no-deps', 'symlink_data'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'calpoly', 'SSH_CLIENT': '10.144.153.244 63984 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'MOTD_SHOWN': 'pam', 'HOME': '/home/calpoly', 'OLDPWD': '/home/calpoly/gobilda', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'calpoly', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'PWD': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities', 'SSH_CONNECTION': '10.144.153.244 63984 129.65.75.132 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.106630] (gobilda_robot) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.108223] (-) TimerEvent: {}
+[2.112215] (gobilda_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/calpoly/gobilda/gobilda_ws/build/gobilda_robot\n'}
+[2.174107] (gobilda_robot) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gobilda_robot.dir/hardware/src/gobilda_system.cpp.o\x1b[0m\n'}
+[2.174774] (gobilda_robot) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/gobilda_robot.dir/hardware/src/motor.cpp.o\x1b[0m\n'}
+[2.208427] (-) TimerEvent: {}
+[2.253738] (kiss_icp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.269114] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.308588] (-) TimerEvent: {}
+[2.382321] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.407484] (kiss_icp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.408080] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.408644] (-) TimerEvent: {}
+[2.409386] (kiss_icp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.445047] (kiss_icp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.508841] (-) TimerEvent: {}
+[2.609945] (-) TimerEvent: {}
+[2.671599] (lab4) StdoutLine: {'line': b'running develop\n'}
+[2.690089] (gobilda_utilities) StdoutLine: {'line': b'running develop\n'}
+[2.710066] (-) TimerEvent: {}
+[2.723669] (kiss_icp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[2.810280] (-) TimerEvent: {}
+[2.866695] (kiss_icp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.910387] (-) TimerEvent: {}
+[2.927069] (kiss_icp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.006393] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.010495] (-) TimerEvent: {}
+[3.016212] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.036053] (kiss_icp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.063776] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.070378] (lab4) StdoutLine: {'line': b'running egg_info\n'}
+[3.070818] (lab4) StdoutLine: {'line': b'writing lab4.egg-info/PKG-INFO\n'}
+[3.071470] (lab4) StdoutLine: {'line': b'writing dependency_links to lab4.egg-info/dependency_links.txt\n'}
+[3.071902] (lab4) StdoutLine: {'line': b'writing entry points to lab4.egg-info/entry_points.txt\n'}
+[3.072312] (lab4) StdoutLine: {'line': b'writing requirements to lab4.egg-info/requires.txt\n'}
+[3.072615] (lab4) StdoutLine: {'line': b'writing top-level names to lab4.egg-info/top_level.txt\n'}
+[3.077157] (lab4) StdoutLine: {'line': b"reading manifest file 'lab4.egg-info/SOURCES.txt'\n"}
+[3.078698] (lab4) StdoutLine: {'line': b"writing manifest file 'lab4.egg-info/SOURCES.txt'\n"}
+[3.082095] (lab4) StdoutLine: {'line': b'running build_ext\n'}
+[3.082602] (lab4) StdoutLine: {'line': b'Creating /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/python3.10/site-packages/lab4.egg-link (link to .)\n'}
+[3.084794] (lab4) StdoutLine: {'line': b'Installing clearance_calculator script to /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/lab4\n'}
+[3.085080] (gobilda_utilities) StdoutLine: {'line': b'running egg_info\n'}
+[3.085323] (lab4) StdoutLine: {'line': b'Installing roomba script to /home/calpoly/gobilda/gobilda_ws/install/lab4/lib/lab4\n'}
+[3.085555] (gobilda_utilities) StdoutLine: {'line': b'writing gobilda_utilities.egg-info/PKG-INFO\n'}
+[3.085839] (lab4) StdoutLine: {'line': b'\n'}
+[3.086127] (lab4) StdoutLine: {'line': b'Installed /home/calpoly/gobilda/gobilda_ws/build/lab4\n'}
+[3.086273] (gobilda_utilities) StdoutLine: {'line': b'writing dependency_links to gobilda_utilities.egg-info/dependency_links.txt\n'}
+[3.086515] (lab4) StdoutLine: {'line': b'running symlink_data\n'}
+[3.086722] (gobilda_utilities) StdoutLine: {'line': b'writing entry points to gobilda_utilities.egg-info/entry_points.txt\n'}
+[3.086944] (gobilda_utilities) StdoutLine: {'line': b'writing requirements to gobilda_utilities.egg-info/requires.txt\n'}
+[3.087104] (gobilda_utilities) StdoutLine: {'line': b'writing top-level names to gobilda_utilities.egg-info/top_level.txt\n'}
+[3.091717] (gobilda_utilities) StdoutLine: {'line': b"reading manifest file 'gobilda_utilities.egg-info/SOURCES.txt'\n"}
+[3.093502] (gobilda_utilities) StdoutLine: {'line': b"writing manifest file 'gobilda_utilities.egg-info/SOURCES.txt'\n"}
+[3.097153] (gobilda_utilities) StdoutLine: {'line': b'running build_ext\n'}
+[3.097609] (gobilda_utilities) StdoutLine: {'line': b'Creating /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/python3.10/site-packages/gobilda-utilities.egg-link (link to .)\n'}
+[3.099908] (gobilda_utilities) StdoutLine: {'line': b'Installing draw_square_fb script to /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/gobilda_utilities\n'}
+[3.100547] (gobilda_utilities) StdoutLine: {'line': b'Installing teleop_gobilda script to /home/calpoly/gobilda/gobilda_ws/install/gobilda_utilities/lib/gobilda_utilities\n'}
+[3.100799] (kiss_icp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.101143] (gobilda_utilities) StdoutLine: {'line': b'\n'}
+[3.101364] (gobilda_utilities) StdoutLine: {'line': b'Installed /home/calpoly/gobilda/gobilda_ws/build/gobilda_utilities\n'}
+[3.101499] (gobilda_utilities) StdoutLine: {'line': b'running symlink_data\n'}
+[3.110629] (-) TimerEvent: {}
+[3.197014] (kiss_icp) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.213073] (lab4) CommandEnded: {'returncode': 0}
+[3.214254] (-) TimerEvent: {}
+[3.227979] (lab4) JobEnded: {'identifier': 'lab4', 'rc': 0}
+[3.231299] (gobilda_utilities) CommandEnded: {'returncode': 0}
+[3.245082] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.247495] (gobilda_utilities) JobEnded: {'identifier': 'gobilda_utilities', 'rc': 0}
+[3.314425] (-) TimerEvent: {}
+[3.329160] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.334604] (kiss_icp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.414556] (-) TimerEvent: {}
+[3.515214] (-) TimerEvent: {}
+[3.521422] (kiss_icp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[3.591952] (kiss_icp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[3.615339] (-) TimerEvent: {}
+[3.675441] (kiss_icp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.692744] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.715477] (-) TimerEvent: {}
+[3.816140] (-) TimerEvent: {}
+[3.838617] (kiss_icp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.840952] (kiss_icp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[3.916329] (-) TimerEvent: {}
+[3.933041] (kiss_icp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.002423] (kiss_icp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.016431] (-) TimerEvent: {}
+[4.043755] (kiss_icp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.116574] (-) TimerEvent: {}
+[4.217203] (-) TimerEvent: {}
+[4.317818] (-) TimerEvent: {}
+[4.366202] (kiss_icp) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[4.417969] (-) TimerEvent: {}
+[4.430698] (kiss_icp) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.441282] (kiss_icp) StdoutLine: {'line': b'-- Build files have been written to: /home/calpoly/gobilda/gobilda_ws/build/kiss_icp\n'}
+[4.472551] (kiss_icp) CommandEnded: {'returncode': 0}
+[4.473699] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'build'}
+[4.474307] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp', '--', '-j6', '-l6'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'calpoly'), ('SSH_CLIENT', '10.144.153.244 63984 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/calpoly'), ('OLDPWD', '/home/calpoly/gobilda'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'calpoly'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp'), ('SSH_CONNECTION', '10.144.153.244 63984 129.65.75.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.518175] (-) TimerEvent: {}
+[4.531092] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelHashMap.cpp.o\x1b[0m\n'}
+[4.531722] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Registration.cpp.o\x1b[0m\n'}
+[4.532317] (kiss_icp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/VoxelUtils.cpp.o\x1b[0m\n'}
+[4.532606] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/kiss_icp_node.dir/rclcpp_components/node_main_kiss_icp_node.cpp.o\x1b[0m\n'}
+[4.532860] (kiss_icp) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object kiss_icp/metrics/CMakeFiles/kiss_icp_metrics.dir/Metrics.cpp.o\x1b[0m\n'}
+[4.538111] (kiss_icp) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Preprocessing.cpp.o\x1b[0m\n'}
+[4.618379] (-) TimerEvent: {}
+[4.719125] (-) TimerEvent: {}
+[4.820319] (-) TimerEvent: {}
+[4.921577] (-) TimerEvent: {}
+[5.022822] (-) TimerEvent: {}
+[5.124019] (-) TimerEvent: {}
+[5.225219] (-) TimerEvent: {}
+[5.326526] (-) TimerEvent: {}
+[5.427708] (-) TimerEvent: {}
+[5.528866] (-) TimerEvent: {}
+[5.630018] (-) TimerEvent: {}
+[5.731201] (-) TimerEvent: {}
+[5.832447] (-) TimerEvent: {}
+[5.933627] (-) TimerEvent: {}
+[6.034858] (-) TimerEvent: {}
+[6.136093] (-) TimerEvent: {}
+[6.237295] (-) TimerEvent: {}
+[6.338601] (-) TimerEvent: {}
+[6.439881] (-) TimerEvent: {}
+[6.541146] (-) TimerEvent: {}
+[6.641933] (-) TimerEvent: {}
+[6.743148] (-) TimerEvent: {}
+[6.844351] (-) TimerEvent: {}
+[6.945524] (-) TimerEvent: {}
+[7.046744] (-) TimerEvent: {}
+[7.148006] (-) TimerEvent: {}
+[7.249352] (-) TimerEvent: {}
+[7.350560] (-) TimerEvent: {}
+[7.451753] (-) TimerEvent: {}
+[7.552924] (-) TimerEvent: {}
+[7.654148] (-) TimerEvent: {}
+[7.754913] (-) TimerEvent: {}
+[7.855687] (-) TimerEvent: {}
+[7.956855] (-) TimerEvent: {}
+[8.057998] (-) TimerEvent: {}
+[8.159272] (-) TimerEvent: {}
+[8.260484] (-) TimerEvent: {}
+[8.361672] (-) TimerEvent: {}
+[8.462878] (-) TimerEvent: {}
+[8.564098] (-) TimerEvent: {}
+[8.665302] (-) TimerEvent: {}
+[8.766479] (-) TimerEvent: {}
+[8.867658] (-) TimerEvent: {}
+[8.968921] (-) TimerEvent: {}
+[9.070155] (-) TimerEvent: {}
+[9.171316] (-) TimerEvent: {}
+[9.272481] (-) TimerEvent: {}
+[9.355213] (kiss_icp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object kiss_icp/core/CMakeFiles/kiss_icp_core.dir/Threshold.cpp.o\x1b[0m\n'}
+[9.372692] (-) TimerEvent: {}
+[9.473454] (-) TimerEvent: {}
+[9.574250] (-) TimerEvent: {}
+[9.675027] (-) TimerEvent: {}
+[9.775810] (-) TimerEvent: {}
+[9.876553] (-) TimerEvent: {}
+[9.977324] (-) TimerEvent: {}
+[10.078085] (-) TimerEvent: {}
+[10.178871] (-) TimerEvent: {}
+[10.279673] (-) TimerEvent: {}
+[10.380939] (-) TimerEvent: {}
+[10.481715] (-) TimerEvent: {}
+[10.582500] (-) TimerEvent: {}
+[10.683301] (-) TimerEvent: {}
+[10.784120] (-) TimerEvent: {}
+[10.884878] (-) TimerEvent: {}
+[10.985619] (-) TimerEvent: {}
+[11.086405] (-) TimerEvent: {}
+[11.187201] (-) TimerEvent: {}
+[11.287967] (-) TimerEvent: {}
+[11.388744] (-) TimerEvent: {}
+[11.489523] (-) TimerEvent: {}
+[11.590305] (-) TimerEvent: {}
+[11.691094] (-) TimerEvent: {}
+[11.791935] (-) TimerEvent: {}
+[11.892739] (-) TimerEvent: {}
+[11.993529] (-) TimerEvent: {}
+[12.094319] (-) TimerEvent: {}
+[12.195111] (-) TimerEvent: {}
+[12.295899] (-) TimerEvent: {}
+[12.396726] (-) TimerEvent: {}
+[12.497516] (-) TimerEvent: {}
+[12.598294] (-) TimerEvent: {}
+[12.699087] (-) TimerEvent: {}
+[12.799875] (-) TimerEvent: {}
+[12.900643] (-) TimerEvent: {}
+[13.001370] (-) TimerEvent: {}
+[13.102123] (-) TimerEvent: {}
+[13.202880] (-) TimerEvent: {}
+[13.303623] (-) TimerEvent: {}
+[13.404410] (-) TimerEvent: {}
+[13.505115] (-) TimerEvent: {}
+[13.605825] (-) TimerEvent: {}
+[13.706537] (-) TimerEvent: {}
+[13.807664] (-) TimerEvent: {}
+[13.908441] (-) TimerEvent: {}
+[14.009167] (-) TimerEvent: {}
+[14.053215] (gobilda_robot) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX shared library libgobilda_robot.so\x1b[0m\n'}
+[14.109353] (-) TimerEvent: {}
+[14.162764] (kiss_icp) StdoutLine: {'line': b'[ 57%] \x1b[1m\x1b[32mLinking CXX executable kiss_icp_node\x1b[0m\n'}
+[14.209576] (-) TimerEvent: {}
+[14.310865] (-) TimerEvent: {}
+[14.392341] (kiss_icp) StdoutLine: {'line': b'[ 57%] Built target kiss_icp_node\n'}
+[14.411016] (-) TimerEvent: {}
+[14.472382] (gobilda_robot) StdoutLine: {'line': b'[100%] Built target gobilda_robot\n'}
+[14.485673] (gobilda_robot) CommandEnded: {'returncode': 0}
+[14.487689] (gobilda_robot) JobProgress: {'identifier': 'gobilda_robot', 'progress': 'install'}
+[14.498069] (gobilda_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'calpoly'), ('SSH_CLIENT', '10.144.153.244 63984 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/calpoly'), ('OLDPWD', '/home/calpoly/gobilda'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'calpoly'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/calpoly/gobilda/gobilda_ws/build/gobilda_robot'), ('SSH_CONNECTION', '10.144.153.244 63984 129.65.75.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.508166] (gobilda_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.509587] (gobilda_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.510254] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot//gobilda_robot.xml\n'}
+[14.511070] (-) TimerEvent: {}
+[14.519691] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/include/gobilda_robot/gobilda_robot/gobilda_system.hpp\n'}
+[14.528014] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/include/gobilda_robot/gobilda_robot/motor.hpp\n'}
+[14.536596] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/ros2_control/gobilda.ros2_control.xacro\n'}
+[14.545370] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda.urdf.xacro\n'}
+[14.553680] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda_description.urdf.xacro\n'}
+[14.561424] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/urdf/gobilda_gazebo.urdf.xacro\n'}
+[14.569761] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/launch/gobilda_ekf_odom_viz.launch.py\n'}
+[14.578019] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/ekf.yaml\n'}
+[14.585733] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/gobilda_controllers.yaml\n'}
+[14.593428] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/mapper_params_online_async.yaml\n'}
+[14.601335] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/config/oakd.yaml\n'}
+[14.609656] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/library_path.sh\n'}
+[14.611170] (-) TimerEvent: {}
+[14.617993] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/library_path.dsv\n'}
+[14.626327] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/package_run_dependencies/gobilda_robot\n'}
+[14.634559] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/parent_prefix_path/gobilda_robot\n'}
+[14.642531] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/ament_prefix_path.sh\n'}
+[14.650585] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/ament_prefix_path.dsv\n'}
+[14.658544] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/path.sh\n'}
+[14.666473] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/environment/path.dsv\n'}
+[14.674422] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.bash\n'}
+[14.683302] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.sh\n'}
+[14.691312] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.zsh\n'}
+[14.699271] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/local_setup.dsv\n'}
+[14.707376] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.dsv\n'}
+[14.711278] (-) TimerEvent: {}
+[14.716332] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/packages/gobilda_robot\n'}
+[14.724782] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/gobilda_robot\n'}
+[14.733299] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.741570] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.749680] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/gobilda_robotConfig.cmake\n'}
+[14.757621] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/gobilda_robotConfig-version.cmake\n'}
+[14.765757] (gobilda_robot) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/package.xml\n'}
+[14.774090] (gobilda_robot) StdoutLine: {'line': b'-- Installing: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/libgobilda_robot.so\n'}
+[14.776599] (gobilda_robot) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/lib/libgobilda_robot.so" to ""\n'}
+[14.777158] (gobilda_robot) StdoutLine: {'line': b'-- Installing: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport.cmake\n'}
+[14.777506] (gobilda_robot) StdoutLine: {'line': b'-- Installing: /home/calpoly/gobilda/gobilda_ws/install/gobilda_robot/share/gobilda_robot/cmake/export_gobilda_robotExport-noconfig.cmake\n'}
+[14.781242] (gobilda_robot) CommandEnded: {'returncode': 0}
+[14.811423] (-) TimerEvent: {}
+[14.837989] (gobilda_robot) JobEnded: {'identifier': 'gobilda_robot', 'rc': 0}
+[14.911560] (-) TimerEvent: {}
+[15.012093] (-) TimerEvent: {}
+[15.112667] (-) TimerEvent: {}
+[15.213191] (-) TimerEvent: {}
+[15.313755] (-) TimerEvent: {}
+[15.414420] (-) TimerEvent: {}
+[15.515023] (-) TimerEvent: {}
+[15.615753] (-) TimerEvent: {}
+[15.716478] (-) TimerEvent: {}
+[15.817179] (-) TimerEvent: {}
+[15.917876] (-) TimerEvent: {}
+[16.018584] (-) TimerEvent: {}
+[16.119295] (-) TimerEvent: {}
+[16.220061] (-) TimerEvent: {}
+[16.320837] (-) TimerEvent: {}
+[16.421559] (-) TimerEvent: {}
+[16.522266] (-) TimerEvent: {}
+[16.622975] (-) TimerEvent: {}
+[16.723706] (-) TimerEvent: {}
+[16.824427] (-) TimerEvent: {}
+[16.925160] (-) TimerEvent: {}
+[17.025879] (-) TimerEvent: {}
+[17.126603] (-) TimerEvent: {}
+[17.227322] (-) TimerEvent: {}
+[17.328058] (-) TimerEvent: {}
+[17.428733] (-) TimerEvent: {}
+[17.529345] (-) TimerEvent: {}
+[17.630043] (-) TimerEvent: {}
+[17.731003] (-) TimerEvent: {}
+[17.831728] (-) TimerEvent: {}
+[17.932457] (-) TimerEvent: {}
+[18.033159] (-) TimerEvent: {}
+[18.133875] (-) TimerEvent: {}
+[18.234592] (-) TimerEvent: {}
+[18.335307] (-) TimerEvent: {}
+[18.436009] (-) TimerEvent: {}
+[18.536723] (-) TimerEvent: {}
+[18.637424] (-) TimerEvent: {}
+[18.738132] (-) TimerEvent: {}
+[18.838833] (-) TimerEvent: {}
+[18.939552] (-) TimerEvent: {}
+[19.040272] (-) TimerEvent: {}
+[19.140986] (-) TimerEvent: {}
+[19.241653] (-) TimerEvent: {}
+[19.342339] (-) TimerEvent: {}
+[19.443029] (-) TimerEvent: {}
+[19.543693] (-) TimerEvent: {}
+[19.644433] (-) TimerEvent: {}
+[19.745170] (-) TimerEvent: {}
+[19.845889] (-) TimerEvent: {}
+[19.946598] (-) TimerEvent: {}
+[20.047313] (-) TimerEvent: {}
+[20.147995] (-) TimerEvent: {}
+[20.248729] (-) TimerEvent: {}
+[20.349405] (-) TimerEvent: {}
+[20.450068] (-) TimerEvent: {}
+[20.550757] (-) TimerEvent: {}
+[20.651704] (-) TimerEvent: {}
+[20.752433] (-) TimerEvent: {}
+[20.853122] (-) TimerEvent: {}
+[20.939823] (kiss_icp) StdoutLine: {'line': b'[ 64%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_core.a\x1b[0m\n'}
+[20.953293] (-) TimerEvent: {}
+[20.985336] (kiss_icp) StdoutLine: {'line': b'[ 64%] Built target kiss_icp_core\n'}
+[21.007375] (kiss_icp) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object kiss_icp/pipeline/CMakeFiles/kiss_icp_pipeline.dir/KissICP.cpp.o\x1b[0m\n'}
+[21.053488] (-) TimerEvent: {}
+[21.154156] (-) TimerEvent: {}
+[21.254816] (-) TimerEvent: {}
+[21.355518] (-) TimerEvent: {}
+[21.456254] (-) TimerEvent: {}
+[21.556941] (-) TimerEvent: {}
+[21.657562] (-) TimerEvent: {}
+[21.758246] (-) TimerEvent: {}
+[21.858834] (-) TimerEvent: {}
+[21.959443] (-) TimerEvent: {}
+[22.060099] (-) TimerEvent: {}
+[22.160779] (-) TimerEvent: {}
+[22.261450] (-) TimerEvent: {}
+[22.362051] (-) TimerEvent: {}
+[22.462739] (-) TimerEvent: {}
+[22.563399] (-) TimerEvent: {}
+[22.663988] (-) TimerEvent: {}
+[22.764703] (-) TimerEvent: {}
+[22.865383] (-) TimerEvent: {}
+[22.966013] (-) TimerEvent: {}
+[23.066677] (-) TimerEvent: {}
+[23.167271] (-) TimerEvent: {}
+[23.267920] (-) TimerEvent: {}
+[23.368572] (-) TimerEvent: {}
+[23.469265] (-) TimerEvent: {}
+[23.569930] (-) TimerEvent: {}
+[23.670592] (-) TimerEvent: {}
+[23.771223] (-) TimerEvent: {}
+[23.871826] (-) TimerEvent: {}
+[23.972579] (-) TimerEvent: {}
+[24.073302] (-) TimerEvent: {}
+[24.174006] (-) TimerEvent: {}
+[24.274691] (-) TimerEvent: {}
+[24.375367] (-) TimerEvent: {}
+[24.476044] (-) TimerEvent: {}
+[24.576710] (-) TimerEvent: {}
+[24.677339] (-) TimerEvent: {}
+[24.778043] (-) TimerEvent: {}
+[24.878775] (-) TimerEvent: {}
+[24.979498] (-) TimerEvent: {}
+[25.080219] (-) TimerEvent: {}
+[25.180984] (-) TimerEvent: {}
+[25.281704] (-) TimerEvent: {}
+[25.382428] (-) TimerEvent: {}
+[25.483118] (-) TimerEvent: {}
+[25.583807] (-) TimerEvent: {}
+[25.684496] (-) TimerEvent: {}
+[25.785198] (-) TimerEvent: {}
+[25.828386] (kiss_icp) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_pipeline.a\x1b[0m\n'}
+[25.864093] (kiss_icp) StdoutLine: {'line': b'[ 78%] Built target kiss_icp_pipeline\n'}
+[25.885386] (-) TimerEvent: {}
+[25.887176] (kiss_icp) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/odometry_component.dir/src/OdometryServer.cpp.o\x1b[0m\n'}
+[25.985554] (-) TimerEvent: {}
+[26.086218] (-) TimerEvent: {}
+[26.186875] (-) TimerEvent: {}
+[26.287541] (-) TimerEvent: {}
+[26.388442] (-) TimerEvent: {}
+[26.489123] (-) TimerEvent: {}
+[26.589785] (-) TimerEvent: {}
+[26.690443] (-) TimerEvent: {}
+[26.791111] (-) TimerEvent: {}
+[26.891776] (-) TimerEvent: {}
+[26.992484] (-) TimerEvent: {}
+[27.093255] (-) TimerEvent: {}
+[27.193940] (-) TimerEvent: {}
+[27.294618] (-) TimerEvent: {}
+[27.395328] (-) TimerEvent: {}
+[27.496052] (-) TimerEvent: {}
+[27.596917] (-) TimerEvent: {}
+[27.697660] (-) TimerEvent: {}
+[27.798432] (-) TimerEvent: {}
+[27.899167] (-) TimerEvent: {}
+[27.999902] (-) TimerEvent: {}
+[28.100633] (-) TimerEvent: {}
+[28.201336] (-) TimerEvent: {}
+[28.302059] (-) TimerEvent: {}
+[28.402794] (-) TimerEvent: {}
+[28.503534] (-) TimerEvent: {}
+[28.604250] (-) TimerEvent: {}
+[28.705011] (-) TimerEvent: {}
+[28.805756] (-) TimerEvent: {}
+[28.906706] (-) TimerEvent: {}
+[29.007452] (-) TimerEvent: {}
+[29.108189] (-) TimerEvent: {}
+[29.208931] (-) TimerEvent: {}
+[29.309698] (-) TimerEvent: {}
+[29.410503] (-) TimerEvent: {}
+[29.511230] (-) TimerEvent: {}
+[29.611961] (-) TimerEvent: {}
+[29.712744] (-) TimerEvent: {}
+[29.813482] (-) TimerEvent: {}
+[29.914222] (-) TimerEvent: {}
+[30.014956] (-) TimerEvent: {}
+[30.115669] (-) TimerEvent: {}
+[30.216400] (-) TimerEvent: {}
+[30.317104] (-) TimerEvent: {}
+[30.417827] (-) TimerEvent: {}
+[30.518552] (-) TimerEvent: {}
+[30.619277] (-) TimerEvent: {}
+[30.719991] (-) TimerEvent: {}
+[30.820734] (-) TimerEvent: {}
+[30.921413] (-) TimerEvent: {}
+[31.022120] (-) TimerEvent: {}
+[31.122836] (-) TimerEvent: {}
+[31.223749] (-) TimerEvent: {}
+[31.324717] (-) TimerEvent: {}
+[31.425464] (-) TimerEvent: {}
+[31.526170] (-) TimerEvent: {}
+[31.626897] (-) TimerEvent: {}
+[31.727652] (-) TimerEvent: {}
+[31.828414] (-) TimerEvent: {}
+[31.929090] (-) TimerEvent: {}
+[32.029791] (-) TimerEvent: {}
+[32.130533] (-) TimerEvent: {}
+[32.231266] (-) TimerEvent: {}
+[32.332230] (-) TimerEvent: {}
+[32.432987] (-) TimerEvent: {}
+[32.533721] (-) TimerEvent: {}
+[32.634692] (-) TimerEvent: {}
+[32.735662] (-) TimerEvent: {}
+[32.836650] (-) TimerEvent: {}
+[32.937376] (-) TimerEvent: {}
+[33.038115] (-) TimerEvent: {}
+[33.138860] (-) TimerEvent: {}
+[33.239844] (-) TimerEvent: {}
+[33.340618] (-) TimerEvent: {}
+[33.441370] (-) TimerEvent: {}
+[33.542103] (-) TimerEvent: {}
+[33.642841] (-) TimerEvent: {}
+[33.743604] (-) TimerEvent: {}
+[33.844408] (-) TimerEvent: {}
+[33.945123] (-) TimerEvent: {}
+[34.045852] (-) TimerEvent: {}
+[34.146588] (-) TimerEvent: {}
+[34.247291] (-) TimerEvent: {}
+[34.348057] (-) TimerEvent: {}
+[34.448810] (-) TimerEvent: {}
+[34.549479] (-) TimerEvent: {}
+[34.639635] (kiss_icp) StdoutLine: {'line': b'[ 92%] \x1b[1m\x1b[32mLinking CXX static library libkiss_icp_metrics.a\x1b[0m\n'}
+[34.649628] (-) TimerEvent: {}
+[34.674109] (kiss_icp) StdoutLine: {'line': b'[ 92%] Built target kiss_icp_metrics\n'}
+[34.749810] (-) TimerEvent: {}
+[34.850723] (-) TimerEvent: {}
+[34.951417] (-) TimerEvent: {}
+[35.052096] (-) TimerEvent: {}
+[35.152823] (-) TimerEvent: {}
+[35.253494] (-) TimerEvent: {}
+[35.354183] (-) TimerEvent: {}
+[35.454881] (-) TimerEvent: {}
+[35.555567] (-) TimerEvent: {}
+[35.656251] (-) TimerEvent: {}
+[35.756937] (-) TimerEvent: {}
+[35.857583] (-) TimerEvent: {}
+[35.958228] (-) TimerEvent: {}
+[36.058888] (-) TimerEvent: {}
+[36.159559] (-) TimerEvent: {}
+[36.260216] (-) TimerEvent: {}
+[36.361681] (-) TimerEvent: {}
+[36.462382] (-) TimerEvent: {}
+[36.563054] (-) TimerEvent: {}
+[36.663711] (-) TimerEvent: {}
+[36.764385] (-) TimerEvent: {}
+[36.865066] (-) TimerEvent: {}
+[36.965556] (-) TimerEvent: {}
+[37.066246] (-) TimerEvent: {}
+[37.166921] (-) TimerEvent: {}
+[37.267598] (-) TimerEvent: {}
+[37.368274] (-) TimerEvent: {}
+[37.468768] (-) TimerEvent: {}
+[37.569535] (-) TimerEvent: {}
+[37.670219] (-) TimerEvent: {}
+[37.771140] (-) TimerEvent: {}
+[37.872062] (-) TimerEvent: {}
+[37.973002] (-) TimerEvent: {}
+[38.073898] (-) TimerEvent: {}
+[38.174790] (-) TimerEvent: {}
+[38.275702] (-) TimerEvent: {}
+[38.376602] (-) TimerEvent: {}
+[38.477270] (-) TimerEvent: {}
+[38.578150] (-) TimerEvent: {}
+[38.678838] (-) TimerEvent: {}
+[38.779559] (-) TimerEvent: {}
+[38.880305] (-) TimerEvent: {}
+[38.981110] (-) TimerEvent: {}
+[39.081791] (-) TimerEvent: {}
+[39.182488] (-) TimerEvent: {}
+[39.283191] (-) TimerEvent: {}
+[39.383901] (-) TimerEvent: {}
+[39.484628] (-) TimerEvent: {}
+[39.585531] (-) TimerEvent: {}
+[39.686502] (-) TimerEvent: {}
+[39.787437] (-) TimerEvent: {}
+[39.888396] (-) TimerEvent: {}
+[39.989304] (-) TimerEvent: {}
+[40.090204] (-) TimerEvent: {}
+[40.191099] (-) TimerEvent: {}
+[40.292002] (-) TimerEvent: {}
+[40.392950] (-) TimerEvent: {}
+[40.493638] (-) TimerEvent: {}
+[40.596127] (-) TimerEvent: {}
+[40.697067] (-) TimerEvent: {}
+[40.797999] (-) TimerEvent: {}
+[40.898722] (-) TimerEvent: {}
+[40.999649] (-) TimerEvent: {}
+[41.100548] (-) TimerEvent: {}
+[41.201455] (-) TimerEvent: {}
+[41.302375] (-) TimerEvent: {}
+[41.403287] (-) TimerEvent: {}
+[41.503973] (-) TimerEvent: {}
+[41.604909] (-) TimerEvent: {}
+[41.705819] (-) TimerEvent: {}
+[41.806520] (-) TimerEvent: {}
+[41.907225] (-) TimerEvent: {}
+[42.007913] (-) TimerEvent: {}
+[42.108615] (-) TimerEvent: {}
+[42.209302] (-) TimerEvent: {}
+[42.309991] (-) TimerEvent: {}
+[42.410708] (-) TimerEvent: {}
+[42.511431] (-) TimerEvent: {}
+[42.612146] (-) TimerEvent: {}
+[42.712911] (-) TimerEvent: {}
+[42.813623] (-) TimerEvent: {}
+[42.914540] (-) TimerEvent: {}
+[43.015248] (-) TimerEvent: {}
+[43.116150] (-) TimerEvent: {}
+[43.217193] (-) TimerEvent: {}
+[43.318091] (-) TimerEvent: {}
+[43.418800] (-) TimerEvent: {}
+[43.519487] (-) TimerEvent: {}
+[43.620415] (-) TimerEvent: {}
+[43.721324] (-) TimerEvent: {}
+[43.822224] (-) TimerEvent: {}
+[43.923150] (-) TimerEvent: {}
+[44.024071] (-) TimerEvent: {}
+[44.124991] (-) TimerEvent: {}
+[44.225889] (-) TimerEvent: {}
+[44.326782] (-) TimerEvent: {}
+[44.427486] (-) TimerEvent: {}
+[44.528180] (-) TimerEvent: {}
+[44.629106] (-) TimerEvent: {}
+[44.730043] (-) TimerEvent: {}
+[44.830770] (-) TimerEvent: {}
+[44.931475] (-) TimerEvent: {}
+[45.032114] (-) TimerEvent: {}
+[45.132783] (-) TimerEvent: {}
+[45.233448] (-) TimerEvent: {}
+[45.334109] (-) TimerEvent: {}
+[45.434776] (-) TimerEvent: {}
+[45.535465] (-) TimerEvent: {}
+[45.636161] (-) TimerEvent: {}
+[45.736901] (-) TimerEvent: {}
+[45.837619] (-) TimerEvent: {}
+[45.938553] (-) TimerEvent: {}
+[46.039464] (-) TimerEvent: {}
+[46.140392] (-) TimerEvent: {}
+[46.241075] (-) TimerEvent: {}
+[46.341994] (-) TimerEvent: {}
+[46.442923] (-) TimerEvent: {}
+[46.543606] (-) TimerEvent: {}
+[46.644503] (-) TimerEvent: {}
+[46.745409] (-) TimerEvent: {}
+[46.846311] (-) TimerEvent: {}
+[46.947210] (-) TimerEvent: {}
+[47.048105] (-) TimerEvent: {}
+[47.149026] (-) TimerEvent: {}
+[47.249706] (-) TimerEvent: {}
+[47.350585] (-) TimerEvent: {}
+[47.451490] (-) TimerEvent: {}
+[47.552186] (-) TimerEvent: {}
+[47.653105] (-) TimerEvent: {}
+[47.754003] (-) TimerEvent: {}
+[47.854911] (-) TimerEvent: {}
+[47.955826] (-) TimerEvent: {}
+[48.056564] (-) TimerEvent: {}
+[48.157311] (-) TimerEvent: {}
+[48.258039] (-) TimerEvent: {}
+[48.358766] (-) TimerEvent: {}
+[48.459484] (-) TimerEvent: {}
+[48.560188] (-) TimerEvent: {}
+[48.660921] (-) TimerEvent: {}
+[48.761636] (-) TimerEvent: {}
+[48.862354] (-) TimerEvent: {}
+[48.963057] (-) TimerEvent: {}
+[49.063966] (-) TimerEvent: {}
+[49.164999] (-) TimerEvent: {}
+[49.265898] (-) TimerEvent: {}
+[49.366793] (-) TimerEvent: {}
+[49.467702] (-) TimerEvent: {}
+[49.568590] (-) TimerEvent: {}
+[49.669483] (-) TimerEvent: {}
+[49.770376] (-) TimerEvent: {}
+[49.871264] (-) TimerEvent: {}
+[49.972147] (-) TimerEvent: {}
+[50.073049] (-) TimerEvent: {}
+[50.173940] (-) TimerEvent: {}
+[50.274842] (-) TimerEvent: {}
+[50.375748] (-) TimerEvent: {}
+[50.476652] (-) TimerEvent: {}
+[50.606137] (-) TimerEvent: {}
+[50.707068] (-) TimerEvent: {}
+[50.808011] (-) TimerEvent: {}
+[50.908968] (-) TimerEvent: {}
+[51.009890] (-) TimerEvent: {}
+[51.110590] (-) TimerEvent: {}
+[51.211530] (-) TimerEvent: {}
+[51.312467] (-) TimerEvent: {}
+[51.413345] (-) TimerEvent: {}
+[51.514235] (-) TimerEvent: {}
+[51.615148] (-) TimerEvent: {}
+[51.716057] (-) TimerEvent: {}
+[51.816994] (-) TimerEvent: {}
+[51.917902] (-) TimerEvent: {}
+[52.018807] (-) TimerEvent: {}
+[52.119686] (-) TimerEvent: {}
+[52.220387] (-) TimerEvent: {}
+[52.321064] (-) TimerEvent: {}
+[52.421749] (-) TimerEvent: {}
+[52.522429] (-) TimerEvent: {}
+[52.623118] (-) TimerEvent: {}
+[52.723838] (-) TimerEvent: {}
+[52.824572] (-) TimerEvent: {}
+[52.925271] (-) TimerEvent: {}
+[53.025996] (-) TimerEvent: {}
+[53.126673] (-) TimerEvent: {}
+[53.227349] (-) TimerEvent: {}
+[53.328233] (-) TimerEvent: {}
+[53.429274] (-) TimerEvent: {}
+[53.530162] (-) TimerEvent: {}
+[53.631048] (-) TimerEvent: {}
+[53.731947] (-) TimerEvent: {}
+[53.832894] (-) TimerEvent: {}
+[53.933783] (-) TimerEvent: {}
+[54.034672] (-) TimerEvent: {}
+[54.135329] (-) TimerEvent: {}
+[54.236229] (-) TimerEvent: {}
+[54.337132] (-) TimerEvent: {}
+[54.438029] (-) TimerEvent: {}
+[54.538927] (-) TimerEvent: {}
+[54.639822] (-) TimerEvent: {}
+[54.740757] (-) TimerEvent: {}
+[54.841676] (-) TimerEvent: {}
+[54.942598] (-) TimerEvent: {}
+[55.043503] (-) TimerEvent: {}
+[55.144395] (-) TimerEvent: {}
+[55.245067] (-) TimerEvent: {}
+[55.345960] (-) TimerEvent: {}
+[55.446835] (-) TimerEvent: {}
+[55.547507] (-) TimerEvent: {}
+[55.648212] (-) TimerEvent: {}
+[55.748930] (-) TimerEvent: {}
+[55.849642] (-) TimerEvent: {}
+[55.950360] (-) TimerEvent: {}
+[56.051055] (-) TimerEvent: {}
+[56.151757] (-) TimerEvent: {}
+[56.252473] (-) TimerEvent: {}
+[56.353174] (-) TimerEvent: {}
+[56.453886] (-) TimerEvent: {}
+[56.554604] (-) TimerEvent: {}
+[56.655527] (-) TimerEvent: {}
+[56.756471] (-) TimerEvent: {}
+[56.857388] (-) TimerEvent: {}
+[56.958306] (-) TimerEvent: {}
+[57.059234] (-) TimerEvent: {}
+[57.160166] (-) TimerEvent: {}
+[57.261158] (-) TimerEvent: {}
+[57.362111] (-) TimerEvent: {}
+[57.463046] (-) TimerEvent: {}
+[57.563745] (-) TimerEvent: {}
+[57.664654] (-) TimerEvent: {}
+[57.765580] (-) TimerEvent: {}
+[57.866522] (-) TimerEvent: {}
+[57.967452] (-) TimerEvent: {}
+[58.068418] (-) TimerEvent: {}
+[58.169317] (-) TimerEvent: {}
+[58.270238] (-) TimerEvent: {}
+[58.371157] (-) TimerEvent: {}
+[58.472079] (-) TimerEvent: {}
+[58.573007] (-) TimerEvent: {}
+[58.673924] (-) TimerEvent: {}
+[58.774852] (-) TimerEvent: {}
+[58.875532] (-) TimerEvent: {}
+[58.976240] (-) TimerEvent: {}
+[59.076973] (-) TimerEvent: {}
+[59.177705] (-) TimerEvent: {}
+[59.278413] (-) TimerEvent: {}
+[59.379117] (-) TimerEvent: {}
+[59.479840] (-) TimerEvent: {}
+[59.580565] (-) TimerEvent: {}
+[59.681264] (-) TimerEvent: {}
+[59.781962] (-) TimerEvent: {}
+[59.882686] (-) TimerEvent: {}
+[59.983857] (-) TimerEvent: {}
+[60.085038] (-) TimerEvent: {}
+[60.185947] (-) TimerEvent: {}
+[60.286855] (-) TimerEvent: {}
+[60.387775] (-) TimerEvent: {}
+[60.488683] (-) TimerEvent: {}
+[60.617714] (-) TimerEvent: {}
+[60.718412] (-) TimerEvent: {}
+[60.819130] (-) TimerEvent: {}
+[60.920075] (-) TimerEvent: {}
+[61.021144] (-) TimerEvent: {}
+[61.122043] (-) TimerEvent: {}
+[61.222738] (-) TimerEvent: {}
+[61.323670] (-) TimerEvent: {}
+[61.424603] (-) TimerEvent: {}
+[61.525528] (-) TimerEvent: {}
+[61.626426] (-) TimerEvent: {}
+[61.727351] (-) TimerEvent: {}
+[61.828267] (-) TimerEvent: {}
+[61.929207] (-) TimerEvent: {}
+[62.030135] (-) TimerEvent: {}
+[62.131050] (-) TimerEvent: {}
+[62.231980] (-) TimerEvent: {}
+[62.332918] (-) TimerEvent: {}
+[62.433829] (-) TimerEvent: {}
+[62.534733] (-) TimerEvent: {}
+[62.635639] (-) TimerEvent: {}
+[62.736547] (-) TimerEvent: {}
+[62.837460] (-) TimerEvent: {}
+[62.938354] (-) TimerEvent: {}
+[63.039258] (-) TimerEvent: {}
+[63.139929] (-) TimerEvent: {}
+[63.240660] (-) TimerEvent: {}
+[63.341365] (-) TimerEvent: {}
+[63.442062] (-) TimerEvent: {}
+[63.542772] (-) TimerEvent: {}
+[63.643480] (-) TimerEvent: {}
+[63.744181] (-) TimerEvent: {}
+[63.844901] (-) TimerEvent: {}
+[63.945608] (-) TimerEvent: {}
+[64.046319] (-) TimerEvent: {}
+[64.147024] (-) TimerEvent: {}
+[64.247901] (-) TimerEvent: {}
+[64.348913] (-) TimerEvent: {}
+[64.449838] (-) TimerEvent: {}
+[64.550769] (-) TimerEvent: {}
+[64.651672] (-) TimerEvent: {}
+[64.752560] (-) TimerEvent: {}
+[64.853459] (-) TimerEvent: {}
+[64.954370] (-) TimerEvent: {}
+[65.055293] (-) TimerEvent: {}
+[65.156193] (-) TimerEvent: {}
+[65.257142] (-) TimerEvent: {}
+[65.358058] (-) TimerEvent: {}
+[65.458969] (-) TimerEvent: {}
+[65.559670] (-) TimerEvent: {}
+[65.660561] (-) TimerEvent: {}
+[65.761473] (-) TimerEvent: {}
+[65.862388] (-) TimerEvent: {}
+[65.963316] (-) TimerEvent: {}
+[66.064247] (-) TimerEvent: {}
+[66.165184] (-) TimerEvent: {}
+[66.266096] (-) TimerEvent: {}
+[66.367054] (-) TimerEvent: {}
+[66.467727] (-) TimerEvent: {}
+[66.568447] (-) TimerEvent: {}
+[66.669112] (-) TimerEvent: {}
+[66.769815] (-) TimerEvent: {}
+[66.870513] (-) TimerEvent: {}
+[66.971217] (-) TimerEvent: {}
+[67.071948] (-) TimerEvent: {}
+[67.172709] (-) TimerEvent: {}
+[67.273429] (-) TimerEvent: {}
+[67.374136] (-) TimerEvent: {}
+[67.474833] (-) TimerEvent: {}
+[67.575529] (-) TimerEvent: {}
+[67.676453] (-) TimerEvent: {}
+[67.777367] (-) TimerEvent: {}
+[67.878262] (-) TimerEvent: {}
+[67.979177] (-) TimerEvent: {}
+[68.080085] (-) TimerEvent: {}
+[68.181010] (-) TimerEvent: {}
+[68.281896] (-) TimerEvent: {}
+[68.382818] (-) TimerEvent: {}
+[68.483721] (-) TimerEvent: {}
+[68.584488] (-) TimerEvent: {}
+[68.685466] (-) TimerEvent: {}
+[68.786321] (-) TimerEvent: {}
+[68.887134] (-) TimerEvent: {}
+[68.987919] (-) TimerEvent: {}
+[69.088706] (-) TimerEvent: {}
+[69.142085] (kiss_icp) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX shared library libodometry_component.so\x1b[0m\n'}
+[69.189049] (-) TimerEvent: {}
+[69.289755] (-) TimerEvent: {}
+[69.390430] (-) TimerEvent: {}
+[69.491125] (-) TimerEvent: {}
+[69.526952] (kiss_icp) StdoutLine: {'line': b'[100%] Built target odometry_component\n'}
+[69.538765] (kiss_icp) CommandEnded: {'returncode': 0}
+[69.540842] (kiss_icp) JobProgress: {'identifier': 'kiss_icp', 'progress': 'install'}
+[69.541769] (kiss_icp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp'], 'cwd': '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'calpoly'), ('SSH_CLIENT', '10.144.153.244 63984 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/calpoly'), ('OLDPWD', '/home/calpoly/gobilda'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'calpoly'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('PWD', '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp'), ('SSH_CONNECTION', '10.144.153.244 63984 129.65.75.132 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[69.550562] (kiss_icp) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[69.552706] (kiss_icp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[69.553474] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib/kiss_icp/kiss_icp_node\n'}
+[69.561375] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/lib/libodometry_component.so\n'}
+[69.569143] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp//launch/odometry.launch.py\n'}
+[69.576732] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp//rviz/kiss_icp.rviz\n'}
+[69.583984] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp//config/config.yaml\n'}
+[69.591093] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/ament_index/resource_index/package_run_dependencies/kiss_icp\n'}
+[69.591365] (-) TimerEvent: {}
+[69.599651] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/ament_index/resource_index/parent_prefix_path/kiss_icp\n'}
+[69.607268] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.sh\n'}
+[69.614807] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/environment/ament_prefix_path.dsv\n'}
+[69.622066] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/environment/path.sh\n'}
+[69.629662] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/environment/path.dsv\n'}
+[69.636817] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/local_setup.bash\n'}
+[69.643670] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/local_setup.sh\n'}
+[69.650833] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/local_setup.zsh\n'}
+[69.659900] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/local_setup.dsv\n'}
+[69.667078] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.dsv\n'}
+[69.674320] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/ament_index/resource_index/packages/kiss_icp\n'}
+[69.681771] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/ament_index/resource_index/rclcpp_components/kiss_icp\n'}
+[69.689574] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig.cmake\n'}
+[69.691462] (-) TimerEvent: {}
+[69.696951] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/cmake/kiss_icpConfig-version.cmake\n'}
+[69.703858] (kiss_icp) StdoutLine: {'line': b'-- Symlinking: /home/calpoly/gobilda/gobilda_ws/install/kiss_icp/share/kiss_icp/package.xml\n'}
+[69.714173] (kiss_icp) CommandEnded: {'returncode': 0}
+[69.769385] (kiss_icp) JobEnded: {'identifier': 'kiss_icp', 'rc': 0}
+[69.772251] (-) EventReactorShutdown: {}

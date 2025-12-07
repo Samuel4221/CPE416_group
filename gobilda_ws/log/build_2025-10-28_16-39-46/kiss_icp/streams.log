@@ -1,0 +1,14 @@
+[0.608s] Invoking command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/calpoly/gobilda/gobilda_ws/install/kiss_icp
+[0.725s] -- The CXX compiler identification is GNU 11.4.0
+[0.738s] -- Detecting CXX compiler ABI info
+[0.884s] -- Detecting CXX compiler ABI info - done
+[0.901s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.902s] -- Detecting CXX compile features
+[0.903s] -- Detecting CXX compile features - done
+[2.467s] [31mCMake Error at /home/calpoly/gobilda/gobilda_ws/build/kiss_icp/_deps/sophus-src/CMakeLists.txt:1 (cmake_minimum_required):
+[2.467s]   CMake 3.24 or higher is required.  You are running version 3.22.1
+[2.467s] 
+[2.467s] [0m
+[2.467s] -- Configuring incomplete, errors occurred!
+[2.468s] See also "/home/calpoly/gobilda/gobilda_ws/build/kiss_icp/CMakeFiles/CMakeOutput.log".
+[2.473s] Invoked command in '/home/calpoly/gobilda/gobilda_ws/build/kiss_icp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/calpoly/gobilda/gobilda_ws/install/kiss_icp

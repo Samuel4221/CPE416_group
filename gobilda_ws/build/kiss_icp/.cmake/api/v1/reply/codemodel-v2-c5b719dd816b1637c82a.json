@@ -1,0 +1,235 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-81d385d82d77e9aab85d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "kiss_icp",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-kiss_icp-Release-d9e89d9ecfe8a401335d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp"
+				},
+				{
+					"build" : "_deps/sophus-build",
+					"jsonFile" : "directory-_deps.sophus-build-Release-f33d5e264cf1b9b8361f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/calpoly/gobilda/gobilda_ws/build/kiss_icp/_deps/sophus-src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "kiss_icp/core",
+					"jsonFile" : "directory-kiss_icp.core-Release-4ab8196a6fee66c2e8e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "kiss_icp/metrics",
+					"jsonFile" : "directory-kiss_icp.metrics-Release-cd3c68c9262555bd01d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/metrics",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "kiss_icp/pipeline",
+					"jsonFile" : "directory-kiss_icp.pipeline-Release-153ca4d904ce3058bb7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/cpp/kiss_icp/pipeline",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kiss_icp",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						5,
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5
+					],
+					"name" : "kiss_icp_cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Sophus",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "kiss_icp_core::@f15dea1d0e2072c61095",
+					"jsonFile" : "target-kiss_icp_core-Release-dcf6b5c389123748ad63.json",
+					"name" : "kiss_icp_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kiss_icp_metrics::@83fde38ab14997601bd9",
+					"jsonFile" : "target-kiss_icp_metrics-Release-83adaaccdfb9a8ef474f.json",
+					"name" : "kiss_icp_metrics",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_node-Release-6ed9fbc311ab8b4c0cde.json",
+					"name" : "kiss_icp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kiss_icp_pipeline::@4dfa1c09646d329e3f37",
+					"jsonFile" : "target-kiss_icp_pipeline-Release-5a700f0482424645bae4.json",
+					"name" : "kiss_icp_pipeline",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kiss_icp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kiss_icp_uninstall-Release-c0cd508809f85d282963.json",
+					"name" : "kiss_icp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odometry_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odometry_component-Release-26ef3b5a3e6d9a8a0ab3.json",
+					"name" : "odometry_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "other::@0ea949b180ce896eafe4",
+					"jsonFile" : "target-other-Release-4e62973bbd4fb1d33cc3.json",
+					"name" : "other",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-171d67916e5ee316b468.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/calpoly/gobilda/gobilda_ws/build/kiss_icp",
+		"source" : "/home/calpoly/gobilda/gobilda_ws/src/kiss-icp/ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
