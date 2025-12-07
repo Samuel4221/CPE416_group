@@ -36,6 +36,17 @@ def generate_launch_description():
 
     declared_arguments.append(
         DeclareLaunchArgument(
+            'slam_params_file',
+            default_value=PathJoinSubstitution([
+                    FindPackageShare('gobilda_robot'),
+                    'config',
+                    'mapper_params_online_async.yaml',
+                ])
+        )
+    )
+
+    declared_arguments.append(
+        DeclareLaunchArgument(
             'ekf_params_file',
             default_value=PathJoinSubstitution([
                     FindPackageShare('gobilda_robot'),
@@ -68,6 +79,7 @@ def generate_launch_description():
     # Initialize Arguments
     use_mock_hardware = LaunchConfiguration('use_mock_hardware')
     laser_frame_id = LaunchConfiguration('frame_id')
+    slam_params_file = LaunchConfiguration('slam_params_file')
     
     oakd_params_file = LaunchConfiguration('oakd_params_file')
     ekf_params_file = LaunchConfiguration('ekf_params_file')
@@ -175,6 +187,24 @@ def generate_launch_description():
         ],
     )
 
+    # Configure the slam_toolbox nodes and start mapping!
+    slam_toolbox = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource([
+                PathJoinSubstitution([
+                    FindPackageShare('slam_toolbox'),
+                    'launch',
+                    'online_async_launch.py',
+                ])
+            ]),
+
+            launch_arguments={
+                'auto_start': 'true',
+                'use_lifecycle_manager': 'false',
+                'use_sim_time': 'false',
+                'slam_params_file': slam_params_file,
+            }.items()
+    )
+
     robot_localization = Node(
             package='robot_localization',
             executable='ekf_node',
@@ -241,39 +271,6 @@ def generate_launch_description():
                    '/controller_manager',],
     )
 
-        # ---- Roomba controller node ---
-    roomba = Node(
-        package='lab4',
-        executable='roomba',
-        name='roomba',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-        
-    )
-    # ---- Clearance calculator node ---
-    clearance = Node(
-        package='lab4',
-        executable='clearance_calculator',
-        name='clearance_calculator',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-    )
-    cost_map = Node(
-        package='lab4',
-        executable='local_costmap',
-        name='local_costmap',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-    )
-    dwa = Node(
-        package='lab4',
-        executable='DWA',
-        name='DWA',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-    )
-
-
     nodes = [
         control_node,
         robot_state_pub_node,
@@ -282,10 +279,6 @@ def generate_launch_description():
         laser_to_pointcloud,
         rtabmap_odom,
         robot_localization,
-        #roomba,
-        #clearance,
-        cost_map, 
-        dwa,
     ]
 
     launch_files = [
@@ -295,4 +288,4 @@ def generate_launch_description():
     ]
     
     # Ordering here has some effects on the startup timing of the nodes
-    return LaunchDescription(declared_arguments + [foxglove] + launch_files + nodes)
+    return LaunchDescription(declared_arguments + [foxglove] + launch_files + nodes + [slam_toolbox])

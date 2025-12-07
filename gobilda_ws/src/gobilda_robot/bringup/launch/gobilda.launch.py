@@ -73,17 +73,6 @@ def generate_launch_description():
     ekf_params_file = LaunchConfiguration('ekf_params_file')
 
     rectify_rgb = LaunchConfiguration('rectify_rgb')
-    
-    # Grab the FoxGlove launch file
-    foxglove = IncludeLaunchDescription(
-            XMLLaunchDescriptionSource([
-                PathJoinSubstitution([
-                    FindPackageShare('foxglove_bridge'),
-                    'launch',
-                    'foxglove_bridge_launch.xml',
-                ])
-            ]),
-    )
 
     # Grab the RPLidar launch file
     rplidar = IncludeLaunchDescription(
@@ -241,39 +230,6 @@ def generate_launch_description():
                    '/controller_manager',],
     )
 
-        # ---- Roomba controller node ---
-    roomba = Node(
-        package='lab4',
-        executable='roomba',
-        name='roomba',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-        
-    )
-    # ---- Clearance calculator node ---
-    clearance = Node(
-        package='lab4',
-        executable='clearance_calculator',
-        name='clearance_calculator',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-    )
-    cost_map = Node(
-        package='lab4',
-        executable='local_costmap',
-        name='local_costmap',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-    )
-    dwa = Node(
-        package='lab4',
-        executable='DWA',
-        name='DWA',
-        output='screen',
-        #parameters=[{'use_sim_time': True}]
-    )
-
-
     nodes = [
         control_node,
         robot_state_pub_node,
@@ -282,10 +238,6 @@ def generate_launch_description():
         laser_to_pointcloud,
         rtabmap_odom,
         robot_localization,
-        #roomba,
-        #clearance,
-        cost_map, 
-        dwa,
     ]
 
     launch_files = [
@@ -295,4 +247,4 @@ def generate_launch_description():
     ]
     
     # Ordering here has some effects on the startup timing of the nodes
-    return LaunchDescription(declared_arguments + [foxglove] + launch_files + nodes)
+    return LaunchDescription(declared_arguments + launch_files + nodes)

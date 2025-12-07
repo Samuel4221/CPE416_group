@@ -24,7 +24,8 @@ setup(
         'console_scripts': [
             'clearance_calculator = lab4.clearance_calculator:main',
             'roomba = lab4.roomba:main',
-            'LocalCostmap = lab4.LocalCostmap:main'
+            'LocalCostmap = lab4.LocalCostmap:main',
+            'DWA = lab4.DWA:main'
         ],
     },
 )
